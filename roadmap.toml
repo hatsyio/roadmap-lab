@@ -1,0 +1,99 @@
+# Curated roadmap.sh checklist and index of this repo.
+#
+# A node is `evidenced` only when at least one repo-relative path proves it.
+# Node slugs match roadmap.sh; titles are written by hand. No roadmap.sh
+# content is copied here: its license is not a standard open-source one.
+#
+# After you edit this file, run `make readme` to refresh the README table.
+
+[roadmaps]
+python = "https://roadmap.sh/python"
+docker = "https://roadmap.sh/docker"
+devops = "https://roadmap.sh/devops"
+sql = "https://roadmap.sh/sql"
+postgresql-dba = "https://roadmap.sh/postgresql-dba"
+data-engineer = "https://roadmap.sh/data-engineer"
+
+[[nodes]]
+roadmap = "python"
+node = "fast-api"
+title = "FastAPI"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "python"
+node = "pydantic"
+title = "Pydantic"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "python"
+node = "uv"
+title = "uv"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "python"
+node = "pytest"
+title = "pytest"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "docker"
+node = "dockerfiles"
+title = "Dockerfiles"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "docker"
+node = "docker-compose"
+title = "Docker Compose"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "devops"
+node = "github-actions"
+title = "GitHub Actions"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "sql"
+node = "window-functions"
+title = "Window functions"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "postgresql-dba"
+node = "gist"
+title = "GiST indexes"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "postgresql-dba"
+node = "explain"
+title = "EXPLAIN"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "data-engineer"
+node = "dbt"
+title = "dbt"
+status = "pending"
+evidence = []
+
+[[nodes]]
+roadmap = "data-engineer"
+node = "google-bigquery"
+title = "BigQuery"
+status = "pending"
+evidence = []
